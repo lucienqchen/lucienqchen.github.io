@@ -18,11 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Lucien Chen
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, my name is Lucien and I am a sophomore studying Math, 
+  Economics & Data Science at the University of California San Diego.
+  I am passionate about using data to optimize processes, create
+  valuable insights, and make informed decisions. I hope to pursue
+  a career in Financial Technology or the Non-profit sector.
 #url: https://lucienqchen.github.io # the base hostname & protocol for your site, e.g. http://example.com
 #domain: lucienqchen.github.io
 github_username:  lucienqchen
