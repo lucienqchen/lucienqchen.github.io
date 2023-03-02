@@ -55,9 +55,12 @@ And here is what the first few rows of the cleaned up dataset look like:
 
 <iframe src="assets/position_damageshare.html" width=800 height=600 frameBorder=0></iframe>
 
+This graph displays the percentiles of damageshares for each position.
+
 <iframe src="assets/adc_pickrate.html" width=800 height=600 frameBorder=0></iframe>
 
 <iframe src="assets/adc_wr.html" width=800 height=600 frameBorder=0></iframe>
+
 ## Dealing with Missingness
 
 It looks like there are a lot of missing values for golddiffat10 and xpdiffat10. Since either of these columns represent how well Lucian does relative his opponents we can just focus in on the missingness of just golddiffat10. Let's take a look at exactly how many missing values there are in the entire dataframe and try to figure out why that is.
@@ -72,7 +75,7 @@ Let's finally answer our question:
 
 __*Is Lucian a better carry than other ADCs?*__
 
-We are going to measure ability to carry by revisiting winrate. If a champion wins more often, on average, than other champions, it may suggest a greater ability to carry games.
+We are going to measure ability to carry by revisiting winrate. If a champion wins more often than other champions, on average, there is a high likelihood that the champion is more effective in their role, i.e better at carrying.
 
 Let's define our hypotheses:
  - Null Hypothesis: Lucian's winrate is the same as other ADCs and his high winrate is purely due to random chance.
