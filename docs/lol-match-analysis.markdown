@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "League of Legends Competitive Matches Exploratory Data Analysis"
+title: League of Legends Competitive Matches Exploratory Data Analysis
 permalink: /projects/lol-match-analysis
 ---
 
