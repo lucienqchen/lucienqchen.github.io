@@ -17,7 +17,7 @@ Source: [data](https://oracleselixir.com/tools/downloads)
 
 Before we start, we need to determine what kind of information we will use to train our model.
 
-<iframe src="assets/gamelength.html" width=1000 height=600 frameBorder=0></iframe>
+<iframe src="../../assets/gamelength.html" width=1000 height=600 frameBorder=0></iframe>
 
 From this graph, we can see that games take at least about 15 minutes, and so any features we include in our model would need to be able to have been obtained a significant amount of time before the end of the game.
 
@@ -119,7 +119,7 @@ In this model, there are 6 qualitative, ordinal variables and 6 quantitative var
 
 I've also included a confusion matrix below to show how our model performed on the test dataset.
 
-<img src="assets/confusion_matrix.png" alt="Confusion Matrix">
+<img src="../../assets/confusion_matrix.png" alt="Confusion Matrix">
 
 ## Fairness Analysis
 
@@ -127,7 +127,7 @@ An important thing to consider is the fairness of the algorithm, that is, when p
 
 In our data, there are two primary "classes" so to speak, being whether a team playing on Red or Blue side. Since, there are an equal amount of games played on red side as there are on blue side, I used the difference in accuracy as the test statistic and chose a significance level of 5%.
 
-<iframe src="assets/accuracy_by_side.html" width=1000 height=600 frameBorder=0></iframe>
+<iframe src="../../assets/accuracy_by_side.html" width=1000 height=600 frameBorder=0></iframe>
 
 Let's first define our question:
 
@@ -143,6 +143,6 @@ After conducting a permutation test, our p-value was 49.24%. In other words, the
 
 Here is an accompanying visual of our permutation test:
 
-<iframe src="assets/perm_test.html" width=1000 height=600 frameBorder=0></iframe>
+<iframe src="../../assets/perm_test.html" width=1000 height=600 frameBorder=0></iframe>
 
 We fail to reject the null hypothesis, our model is fair for regardless of side, at the 5% confidence level and it is likely that our model does perform fairly on either side.

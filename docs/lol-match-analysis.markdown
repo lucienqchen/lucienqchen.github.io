@@ -53,21 +53,21 @@ Here are the columns I kept for the analysis and what they represent:
 
 And here is what the first few rows of the cleaned up dataset look like:
 
-<iframe src="assets/position_damageshare.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="../../assets/position_damageshare.html" width=800 height=600 frameBorder=0></iframe>
 
 This graph displays the percentiles of damageshares for each position.
 
-<iframe src="assets/adc_pickrate.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="../../assets/adc_pickrate.html" width=800 height=600 frameBorder=0></iframe>
 
-<iframe src="assets/adc_wr.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="../../assets/adc_wr.html" width=800 height=600 frameBorder=0></iframe>
 
 ## Dealing with Missingness
 
 It looks like there are a lot of missing values for golddiffat10 and xpdiffat10. Since either of these columns represent how well Lucian does relative his opponents we can just focus in on the missingness of just golddiffat10. Let's take a look at exactly how many missing values there are in the entire dataframe and try to figure out why that is.
 
-<iframe src="assets/missingness_tvd.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="../../assets/missingness_tvd.html" width=800 height=600 frameBorder=0></iframe>
 
-<iframe src="assets/missingness_tvd_with_observed.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="../../assets/missingness_tvd_with_observed.html" width=800 height=600 frameBorder=0></iframe>
 
 ## Performing a Hypothesis Test
 
@@ -85,7 +85,7 @@ To test this out, we'll run a hypothesis test at the 95% confidence level.
 
 We can see that Lucian has a 53.35% win rate accross 1149 games. We want to see if his win rate is statistically higher from the rest of the ADCs, so we will randomly select 1149 games and find the winrate of the sample which will be our test statistic.
 
-<iframe src="assets/wr_hyp_test.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="../../assets/wr_hyp_test.html" width=800 height=600 frameBorder=0></iframe>
 
 The chance that we would see a winrate that is just as great or greater than Lucian's winrate difference is 1.33% across 10,000 simulations which is rather low.
 
