@@ -20,3 +20,4 @@ permalink: /projects/
     - Designed a baseline model and final model to compare improvements in performance
     - Created *sklearn* pipeline for feature engineering and grid search to find optimal parameters for a DecisionTreeClassifier
     - Plotted a confusion matrix and conducted fairness analysis to test consistency between classes
+    - Toolkit: pandas, numpy, scikit-learn, matplotlib
