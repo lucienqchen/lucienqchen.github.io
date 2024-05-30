@@ -19,4 +19,9 @@ permalink: /projects/
     - Trained a machine learning algorithm to predict the result of a competitive LoL match
     - Designed a baseline model and final model to compare improvements in performance
     - Created *sklearn* pipeline for feature engineering and grid search to find optimal parameters for a DecisionTreeClassifier
+<<<<<<< HEAD
     - Plotted a confusion matrix and conducted fairness analysis to test consistency between classes
+=======
+    - Plotted a confusion matrix and conducted fairness analysis to test consistency between classes
+    - Toolkit: pandas, numpy, scikit-learn, matplotlib
+>>>>>>> parent of de06df7 (md to html)
