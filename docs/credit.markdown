@@ -6,6 +6,8 @@ permalink: /blog/intro-credit
 
 # But... What is Credit?
 
+<img src="../../assets/credit.jpg" alt="Credit Card Stock Image">
+
 by Lucien Chen
 
 In the realm of personal finance, one of the most pivotal concepts you will hear about is credit. Your creditworthiness plays a large role in determining your ability to buy a home, apply for loans, and sometimes even when applying for jobs. But what exactly is credit? And why is is so crucial to your financial health? In this blog post, I address these questions and hopefully you will be able to walk away with an understanding of the essentials of credit and how to effectively manage it.
