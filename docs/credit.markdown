@@ -1,3 +1,4 @@
+---
 layout: page
 title: But... What is Credit?
 permalink: /blog/intro-credit
