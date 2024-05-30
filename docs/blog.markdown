@@ -9,4 +9,4 @@ permalink: /blog/
 
 # Blog
 
-### But... What is Credit?
+### [But... What is Credit?](lucienqchen.github.io/blog/intro-credit)
